@@ -14,6 +14,9 @@ args = Config()
 """
     Pretrained Generator를 불러와주세요!
     사용했던 Dataset을 불러와주세요! (Custom Data라면 torch.utils.data.Dataset을 상속받은 형태로)
+
+    Please load your pretrained model (Generator)!
+    Please load your Dataset!
     
     EX ) torchvision datasets API, CIFAR10
     dataset = datasets.CIFAR10(
